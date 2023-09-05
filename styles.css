@@ -1,0 +1,15 @@
+/* importar tipografia */
+/* estilos globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* variables de colore */
+:root{
+    --color-morado: #9E4DFA;
+    --color-rosa:#946993;
+    --color-rosita: #CCADCB;
+    --color-amarillo: #FBEE8C;
+    --color-gris:#C9C5B3;
+}
