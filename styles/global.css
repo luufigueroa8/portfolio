@@ -1,0 +1,37 @@
+/* importar tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap');
+/* importar estilos */
+@import url(./header.css);
+@import url(./aboutme.css);
+/* estilos globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* variables de colores */
+:root{
+    --color-morado: #9E4DFA;
+    --color-rosa:#946993;
+    --color-claro: #c88dff60;
+    --color-amarillo: #FBEE8C;
+    --color-gris:#C9C5B3;
+    --box-shadow: 2px 2px 20px #46444498 ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background-color: var(--color-claro); */
+    font-family: 'Mulish', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
