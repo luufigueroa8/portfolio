@@ -31,8 +31,8 @@ p{
 }
 
 .article-wrapper:hover {
-    -webkit-box-shadow: -10px 10px 0 #a94eff, 20px 20px 0 #7244bd;
-    box-shadow: -10px 10px 0 #af4eff, -20px 20px 0 #6e44bd;
+    -webkit-box-shadow: 10px 10px 0 #a94eff, 20px 20px 0 #7244bd;
+    box-shadow: 10px 10px 0 #af4eff, 20px 20px 0 #6e44bd;
     border-color: #5805c5;
     -webkit-transform: translate(-20px, -20px);
     -ms-transform: translate(-20px, -20px);
