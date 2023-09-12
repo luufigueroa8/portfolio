@@ -3,6 +3,9 @@
 /* importar estilos */
 @import url(./header.css);
 @import url(./aboutme.css);
+@import url(./carta.css);
+@import url(./skills);
+@import url(./contact.css);
 /* estilos globales */
 *{
     margin: 0;
@@ -13,9 +16,9 @@
 :root{
     --color-morado: #9E4DFA;
     --color-rosa:#946993;
-    --color-claro: #c88dff60;
+    --color-claro: #e4c7f8d0;
     --color-amarillo: #FBEE8C;
-    --color-gris:#C9C5B3;
+    --color-gris:#f7f0ff;
     --box-shadow: 2px 2px 20px #46444498 ;
 }
 
