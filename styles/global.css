@@ -4,8 +4,9 @@
 @import url(./header.css);
 @import url(./aboutme.css);
 @import url(./carta.css);
-@import url(./skills);
+@import url(./skills.css);
 @import url(./contact.css);
+@import url(./footer.css);
 /* estilos globales */
 *{
     margin: 0;
@@ -14,7 +15,7 @@
 }
 /* variables de colores */
 :root{
-    --color-morado: #9E4DFA;
+    --color-morado: #3e136f97;
     --color-rosa:#946993;
     --color-claro: #e4c7f8d0;
     --color-amarillo: #FBEE8C;
@@ -24,6 +25,13 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+.tittle{
+    background-color: var(--color-rosa);
+    text-align: center;
+    padding: 16px;
+    font-size: 40px;
 }
 
 body{

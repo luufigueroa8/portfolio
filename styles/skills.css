@@ -1,4 +1,58 @@
-#skills{
+h3{
+    font-size: 25px;
+    text-align: center;
+   
+}
+
+.skills{
     display: flex;
     justify-content: center;
+    margin: 24px; 
+    gap: 48px;
 }
+
+.skills i{
+    display: flex;
+    justify-content: center;
+
+    font-size: 50px;
+}
+
+/* animacion */
+
+a{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.skills a{
+    position: relative;
+    display: block;
+    padding: 5px;
+}
+  
+.skills a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #ac7dcd, #e878d4, #9485eb);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+}
+  
+.skills a:hover::before{
+    transform: scaleX(1);
+}
+  
+  
+.skills[data-animation="center"] a::before{
+    transform-origin: center;
+}
+  
+  
