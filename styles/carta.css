@@ -46,7 +46,9 @@ p{
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
 }
-
+.article img{
+    object-fit: cover
+}
 .types {
     gap: 10px;
     display: -webkit-box;

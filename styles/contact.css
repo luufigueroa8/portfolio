@@ -1,6 +1,6 @@
 #contact{
     padding: 8px;
-    
+    background-color: var(--color-rosa);
     display: flex;
     flex-direction: row;
     align-items: center;
